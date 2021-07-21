@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(189, 238, 238);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+
+/* Start Nav Bar */
+
+
+/* Devided Nav into two part 
+1. first part contain 2 column where icon will took 7fr and less content will took 5fr
+2.In the second part all those content are separated by 5 column .Eatch will contain 100px.
+*/
+
+.uporer-nav {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+}
+
+
+/* resize Image */
+
+.uporer-nav img {
+    width: auto;
+    height: 40px;
+    justify-self: start;
+}
+
+
+/* In the second part all those content are separated by 5 column .Eatch will contain 100px. */
+
+.vetorer-nav {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    justify-items: end;
+}
+
+
+/*  decorate the link */
+
+.vetorer-nav a {
+    text-decoration: none;
+    color: black;
+    size: 2em;
+}
+
+
+/* decorate sign in button */
+
+.signin-dec {
+    width: auto;
+    height: 35px;
+    /* background-image: linear-gradient(180, rgb(117, 50, 61), rgb(51, 255, 0)); */
+    background-color: rgb(24, 218, 24);
+    border-radius: 10px;
+}
+
+
+/* ENd Nav Bar */
+
+
+/* Sart Course Content */
+
+
+/* devide 2 part eatch 1fr 1fr  */
+
+.course-separation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+}
+
+
+/* colour h4 element */
+
+.left-separation h4 {
+    color: red;
+}
+
+
+/* give height to img  */
+
+.right-separation img {
+    height: 300px;
+}
+
+#schedule-id {
+    color: green;
+}
+
+
+/* End Course Content */
