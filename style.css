@@ -1,7 +1,5 @@
 body {
-    background-color: rgb(189, 238, 238);
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color: White;
     font-family: 'Otomanopee One', sans-serif;
 }
 
@@ -14,8 +12,14 @@ body {
 2.In the second part all those content are separated by 5 column .Eatch will contain 100px.
 */
 
+.ekdom-uporer-part {
+    padding-bottom: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(187, 220, 230);
+}
+
 .uporer-nav {
-    margin-top: 20px;
     display: grid;
     grid-template-columns: 7fr 5fr;
 }
@@ -59,12 +63,6 @@ body {
 }
 
 
-/* ENd Nav Bar */
-
-
-/* Sart Course Content */
-
-
 /* devide 2 part eatch 1fr 1fr  */
 
 .course-separation {
@@ -92,4 +90,178 @@ body {
 }
 
 
+/* ENd Nav Bar */
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+/* Book Section Start */
+
+.books-sec {
+    margin-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.book1,
+.book3,
+.book4 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.book2 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.book1 img {
+    margin-top: 10px;
+    Width: 25%;
+    Height: 40%;
+}
+
+.book2 img {
+    margin-top: 15px;
+    Width: 25%;
+    Height: 40%;
+}
+
+.book3 img {
+    margin-top: 15px;
+    Width: 25%;
+    Height: 40%;
+}
+
+.book4 img {
+    margin-top: 15px;
+    Width: 25%;
+    Height: 40%;
+}
+
+
+/* Book Section End */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* Sart Course Content */
+
+.courses-sec {
+    margin-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+#title-course {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.course-1 img {
+    margin-top: 10px;
+    Width: 85%;
+    Height: 80%;
+    border-radius: 10px;
+}
+
+.course-2 img {
+    margin-top: 15px;
+    Width: 85%;
+    Height: 80%;
+    border-radius: 10px;
+}
+
+.course-3 img {
+    margin-top: 15px;
+    Width: 85%;
+    Height: 80%;
+    border-radius: 10px;
+}
+
+.course-4 img {
+    margin-top: 15px;
+    Width: 85%;
+    Height: 80%;
+    border-radius: 10px;
+}
+
+
 /* End Course Content */
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+
+/* Other Section start  */
+
+.others-sec {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.others-sec {
+    margin-top: 180px;
+}
+
+.col-md-6 img {
+    width: 25%;
+    height: 80%;
+    margin-left: 50%;
+}
+
+
+/* Other section end  */
+
+
+/* ////////////////////////////////////////////////////////// */
+
+
+/* blog section start */
+
+.blog-sec {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 350px;
+    background-color: #282531;
+    margin-top: 180px;
+}
+
+.blog-grid {
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.course-footer li {
+    direction: none;
+    list-style-type: none;
+}
+
+.term-footer li {
+    direction: none;
+    list-style-type: none;
+}
+
+.usefullink-footer li {
+    direction: none;
+    list-style-type: none;
+}
