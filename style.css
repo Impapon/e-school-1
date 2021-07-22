@@ -179,28 +179,21 @@ body {
 .course-1 img {
     margin-top: 10px;
     Width: 85%;
-    Height: 80%;
+    Height: 50%;
     border-radius: 10px;
 }
 
 .course-2 img {
     margin-top: 15px;
     Width: 85%;
-    Height: 80%;
+    Height: 50%;
     border-radius: 10px;
 }
 
 .course-3 img {
     margin-top: 15px;
     Width: 85%;
-    Height: 80%;
-    border-radius: 10px;
-}
-
-.course-4 img {
-    margin-top: 15px;
-    Width: 85%;
-    Height: 80%;
+    Height: 50%;
     border-radius: 10px;
 }
 
